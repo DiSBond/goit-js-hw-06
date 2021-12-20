@@ -8,7 +8,8 @@ function onFormSubmit(event) {
     event.preventDefault();
    
     if (emailInputEl.value === '' || passwordInputEl.value === '') {
-        console.log("Alert: Все поля должны быть заполнены");
+        // console.log("Alert: Все поля должны быть заполнены");
+        alert("Все поля должны быть заполнены");
     } else {
     const formElements = event.currentTarget.elements;
 
